@@ -1,0 +1,10 @@
+{
+  "name": "turkey-timer",
+  "version": "0.9",
+  "main": "app.py",
+  "author": "Rasesh Patel <raspat1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,7 +1,15 @@
 from flask import Flask, render_template, request
+from flask_assets import Bundle, Environment
+
 from turkey_math import do_turkey_math
 
 app = Flask(__name__)
+
+assets = Environment(app)
+css = Bundle("src/main.css", output="dist/main.css")
+
+assets.register("css", css)
+css.build()
 
 
 @app.route('/')
