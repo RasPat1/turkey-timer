@@ -1,2 +1,7 @@
+<!-- templates/invalid_data.html -->
+{% extends "base.html" %}
+
+{% block content %}
 <p> Data was invalid.</p>
 <a href="{{url_for('form')}}">Try Again</a>
+{% endblock content %}

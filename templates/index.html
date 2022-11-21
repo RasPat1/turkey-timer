@@ -1,8 +1,13 @@
-Put in the time and temperature at two points for your turkey.
-This will tell you when it's expected to get to 165 degrees.
-Put temps in farenheight.
-And time in minutes.
+<!-- templates/index.html -->
 
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Time that Turkey</h1>
+<p> Put in the time and temperature at two points for your turkey.
+This will tell you when it's expected to get to 165 degrees.</p>
+<p>Put temps in farenheight.</p>
+<p>And time in minutes.</p>
 
 <form action="data" method = "POST">
     <p>Temp 1 <input type = "number" name = "temp_1" /></p>
@@ -12,3 +17,5 @@ And time in minutes.
     <p>Oven Temp <input type = "number" name = "oven_temp" /></p>
     <p><input type = "submit" value = "submit" /></p>
 </form>
+
+{% endblock content %}
