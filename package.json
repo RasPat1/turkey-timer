@@ -1,0 +1,20 @@
+{
+   "name": "turkey-timer",
+   "version": "0.9",
+   "description": "",
+   "scripts": {
+       "build": "echo \"No build specified\" && exit 1",
+       "test": "echo \"No test specified\" && exit 1",
+       "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RasPat1/turkey-timer.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RasPat1/turkey-timer/issues"
+    },
+    "homepage": "https://github.com/RasPat1/turkey-timer#readme"
+}
