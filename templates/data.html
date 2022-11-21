@@ -3,10 +3,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>It'll take {{ form_data['time_remaining'] }} for your turkey to reach that temp.</h1>
-{% for key,value in form_data.items() %}
-<h2> {{key}}</h2>
-<p> {{value}}</p>
-{% endfor %}
+<h1>It'll take {{ time_remaining }} more minutes for your turkey to reach 165 degrees farenheight.</h1>
 
 {% endblock content %}

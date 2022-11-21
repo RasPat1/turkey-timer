@@ -26,4 +26,4 @@ def data():
     output = do_turkey_math(**form_data)
     if not output:
       return render_template('invalid_data.html')
-    return render_template('data.html', form_data=output)
+    return render_template('data.html', time_remaining=output['time_remaining'])
